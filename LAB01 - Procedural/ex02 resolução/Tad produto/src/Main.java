@@ -32,7 +32,7 @@ public class Main {
 
         System.out.println("\nAumentando o preco em 10% do produto 1 e 3");
         preco[0] = altera_preco(preco[0], -10);
-        preco[2] = altera_preco(preco[2], 10);
+        preco[2] = altera_preco(preco[2], -110);
 
         System.out.println("\nReduzindo o preco em 5% do produto 2");
         preco[1] = altera_preco(preco[1], -5);
@@ -41,8 +41,8 @@ public class Main {
         else
             System.out.println("\nPreco alterado com sucesso");
 
-        System.out.println("\nAlterando o preco do prod. 3");
-        preco[3] = altera_preco(preco[3], -10);
+        System.out.println("\nAlterando o preco do prod. 4");
+        preco[3] = altera_preco(preco[3], -110);
         if (preco[3] == -1)
             System.out.println("\nErro: preco nao alterado. Porcentagem invalida");
 
