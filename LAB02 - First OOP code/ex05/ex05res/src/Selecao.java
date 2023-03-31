@@ -4,11 +4,16 @@ public class Selecao {
     private String nometec;
     private Figurinha []listaj = new Figurinha[11];
 
-    public void setSelec(String no, String na, Figurinha fig[])
+    public void setSelec(String nos, String not)
     {
-        nomesel = no;
-        nometec = na;
-        listaj = fig;
+        nomesel = nos;
+        nometec = not;
+        int i;
+        for(i = 0; i < 11;i++)
+        {
+            listaj[i] = new Figurinha();
+            listaj[i].setFigurinha(nos);
+        }
 
 
     }

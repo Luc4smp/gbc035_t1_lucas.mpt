@@ -16,6 +16,16 @@ public class Figurinha {
         pais = pa;
 
     }
+    public void setFigurinha(String pa)
+    {
+        nome = "Padrão";
+        nasc = "01/01/2000";
+        altura = 1.70;
+        peso = 84;
+        pos = "Padrão";
+        pais = pa;
+
+    }
 
     public String getNome(){
         return nome;
