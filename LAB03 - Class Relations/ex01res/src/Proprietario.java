@@ -1,8 +1,8 @@
-public class Pessoa {
+public class Proprietario {
         private String nome;
         private Casa casa;
         // Construtor
-        public Pessoa(String n,Casa c) {
+        public Proprietario(String n,Casa c) {
             nome = n;
             casa = c;
 
