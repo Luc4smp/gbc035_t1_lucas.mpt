@@ -1,3 +1,6 @@
 public class Chefe extends Funcionario{
-    public double salarioF;
+    Chefe(){
+        super();
+        setSalario(15000);
+    }
 }
